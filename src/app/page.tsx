@@ -231,15 +231,23 @@ export default function Home() {
 
           <form
             className="mt-8 grid gap-4 md:grid-cols-2"
-            action="mailto:cecilia.skoldebrink@gmail.com"
-            method="post"
-            encType="text/plain"
+            name="kontakt"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
           >
+            <input type="hidden" name="form-name" value="kontakt" />
+            <p className="hidden">
+              <label>
+                Fyll inte i detta fält: <input name="bot-field" />
+              </label>
+            </p>
             <input
               className="rounded-xl border border-[#183a2f]/30 bg-[#fcfbf8] px-4 py-3 text-sm outline-none ring-[#183a2f] placeholder:text-neutral-500 focus:ring"
               name="Namn"
               type="text"
               placeholder="Ditt namn"
+              autoComplete="name"
               required
             />
             <input
@@ -247,6 +255,7 @@ export default function Home() {
               name="E-post"
               type="email"
               placeholder="din@email.se"
+              autoComplete="email"
               required
             />
             <input
