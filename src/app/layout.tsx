@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Skoldebrink Italia Sprakstod",
+  title: "Italia Språkstöd Sverige",
   description:
-    "Professionell sprakstod, oversattning och vagledning mellan svenska och italienska.",
+    "Professionellt språkstöd, översättning och vägledning mellan svenska och italienska.",
 };
 
 export default function RootLayout({
