@@ -231,17 +231,17 @@ export default function Home() {
 
           <form
             className="mt-8 grid gap-4 md:grid-cols-2"
-            name="kontakt"
+            action="https://formsubmit.co/cecilia.skoldebrink@gmail.com"
             method="POST"
-            data-netlify="true"
-            netlify-honeypot="bot-field"
           >
-            <input type="hidden" name="form-name" value="kontakt" />
-            <p className="hidden">
-              <label>
-                Fyll inte i detta fält: <input name="bot-field" />
-              </label>
-            </p>
+            <input type="hidden" name="_subject" value="Ny förfrågan från Italia Språkstöd Sverige" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://italia-sprakstod-sverige.netlify.app/tack"
+            />
             <input
               className="rounded-xl border border-[#183a2f]/30 bg-[#fcfbf8] px-4 py-3 text-sm outline-none ring-[#183a2f] placeholder:text-neutral-500 focus:ring"
               name="Namn"
