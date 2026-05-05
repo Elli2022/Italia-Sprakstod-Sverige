@@ -1,0 +1,18 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F4EADF"/>
+  <circle cx="980" cy="160" r="120" fill="#E8D8C8"/>
+  <circle cx="970" cy="170" r="70" fill="#D7C2AD"/>
+  <rect x="120" y="120" width="520" height="660" rx="24" fill="#FFFFFF"/>
+  <rect x="120" y="120" width="520" height="20" fill="#1E7A49"/>
+  <rect x="120" y="140" width="520" height="20" fill="#FFFFFF"/>
+  <rect x="120" y="160" width="520" height="20" fill="#C53434"/>
+  <circle cx="380" cy="350" r="120" fill="#E8D8C8"/>
+  <path d="M260 560C260 481.634 323.634 418 402 418H358C436.366 418 500 481.634 500 560V640H260V560Z" fill="#183A2F"/>
+  <path d="M270 350C270 289.249 319.249 240 380 240V240C440.751 240 490 289.249 490 350V365C490 425.751 440.751 475 380 475V475C319.249 475 270 425.751 270 365V350Z" fill="#F1D7BF"/>
+  <path d="M302 325C302 277.503 340.503 239 388 239V239C435.497 239 474 277.503 474 325V332H302V325Z" fill="#6B4E3C"/>
+  <rect x="690" y="280" width="390" height="320" rx="24" fill="#FFFFFF"/>
+  <text x="730" y="360" fill="#183A2F" font-family="Arial, sans-serif" font-size="38" font-weight="700">Cecilia</text>
+  <text x="730" y="410" fill="#4B5563" font-family="Arial, sans-serif" font-size="30">Svensk-italiensk tolk</text>
+  <text x="730" y="470" fill="#6B7280" font-family="Arial, sans-serif" font-size="24">Byt ut denna bild mot</text>
+  <text x="730" y="505" fill="#6B7280" font-family="Arial, sans-serif" font-size="24">ett riktigt portratt.</text>
+</svg>

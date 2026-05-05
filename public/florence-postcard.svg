@@ -1,0 +1,17 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F8F1E6"/>
+  <rect x="70" y="70" width="1060" height="760" rx="30" fill="#FFFDF9" stroke="#E6D8C8" stroke-width="8"/>
+  <circle cx="940" cy="230" r="90" fill="#F3D9B7"/>
+  <path d="M110 610H1090V760H110V610Z" fill="#DFC5A6"/>
+  <path d="M250 440H390V610H250V440Z" fill="#C99B6E"/>
+  <path d="M390 470H560V610H390V470Z" fill="#B98657"/>
+  <path d="M560 380H760V610H560V380Z" fill="#A6754A"/>
+  <path d="M760 460H930V610H760V460Z" fill="#C99B6E"/>
+  <path d="M650 290C650 248.026 684.026 214 726 214V214C767.974 214 802 248.026 802 290V380H650V290Z" fill="#9B6038"/>
+  <rect x="646" y="380" width="160" height="24" fill="#8A5331"/>
+  <line x1="160" y1="690" x2="1040" y2="690" stroke="#1E7A49" stroke-width="10"/>
+  <line x1="160" y1="710" x2="1040" y2="710" stroke="#FFFFFF" stroke-width="10"/>
+  <line x1="160" y1="730" x2="1040" y2="730" stroke="#C53434" stroke-width="10"/>
+  <text x="150" y="180" fill="#183A2F" font-family="Arial, sans-serif" font-size="56" font-weight="700">Firenze</text>
+  <text x="150" y="235" fill="#6B7280" font-family="Arial, sans-serif" font-size="30">En plats som format hennes sprak.</text>
+</svg>

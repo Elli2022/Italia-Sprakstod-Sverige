@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const services = [
   {
     title: "Dokumentoversattning",
@@ -26,78 +28,122 @@ const timeline = [
 
 export default function Home() {
   return (
-    <div className="bg-neutral-950 text-neutral-100">
-      <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-6 pb-20 pt-10 md:px-10">
-        <header className="mb-16 flex flex-wrap items-center justify-between gap-4">
-          <div>
-            <p className="text-sm font-semibold tracking-wide text-neutral-100">
+    <div className="bg-[#f8f4ee] text-neutral-900">
+      <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-6 pb-20 pt-8 md:px-10">
+        <header className="mb-14 flex flex-wrap items-center justify-between gap-4">
+          <div className="space-y-2">
+            <p className="text-sm font-semibold tracking-wide text-[#183a2f]">
               Skoldebrink Italia Sprakstod
             </p>
-            <p className="mt-1 rounded-full border border-neutral-700 px-4 py-2 text-xs uppercase tracking-[0.2em] text-neutral-300">
+            <p className="w-fit rounded-full border border-[#183a2f]/30 bg-white/70 px-4 py-2 text-xs uppercase tracking-[0.2em] text-[#8b1e1e]">
               Svensk-italiensk tolkning och oversattning
             </p>
           </div>
           <a
             href="#kontakt"
-            className="rounded-full bg-neutral-100 px-5 py-2 text-sm font-semibold text-neutral-950 transition hover:bg-neutral-300"
+            className="rounded-full bg-[#183a2f] px-5 py-2 text-sm font-semibold text-white transition hover:bg-[#225140]"
           >
             Kontakta oss
           </a>
         </header>
 
-        <section className="grid gap-10 md:grid-cols-[1.3fr_1fr]">
+        <section className="grid gap-10 md:grid-cols-[1.25fr_1fr]">
           <div>
-            <h1 className="text-4xl font-semibold leading-tight md:text-6xl">
-              Erfaren italiensk tolk med over 15 ars professionell erfarenhet
+            <p className="mb-4 text-sm uppercase tracking-[0.18em] text-[#8b1e1e]">
+              Benvenuti - valkommen
+            </p>
+            <h1 className="text-4xl font-semibold leading-tight md:text-6xl md:leading-[1.05]">
+              Erfaren italiensk tolk med ett hjarta i bade Sverige och Italien
             </h1>
-            <p className="mt-6 max-w-2xl text-lg text-neutral-300">
+            <p className="mt-6 max-w-2xl text-lg text-neutral-700">
               Personlig och trygg hjalp for privatpersoner och foretag som
               behover sprakstod mellan Sverige och Italien.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
                 href="#tjanster"
-                className="rounded-full border border-neutral-600 px-5 py-2 text-sm transition hover:border-neutral-300"
+                className="rounded-full border border-[#183a2f]/35 bg-white px-5 py-2 text-sm transition hover:border-[#183a2f]"
               >
                 Se tjanster
               </a>
               <a
                 href="mailto:cecilia.skoldebrink@gmail.com"
-                className="rounded-full border border-neutral-600 px-5 py-2 text-sm transition hover:border-neutral-300"
+                className="rounded-full border border-[#183a2f]/35 bg-white px-5 py-2 text-sm transition hover:border-[#183a2f]"
               >
                 cecilia.skoldebrink@gmail.com
               </a>
               <a
                 href="tel:+46707273699"
-                className="rounded-full border border-neutral-600 px-5 py-2 text-sm transition hover:border-neutral-300"
+                className="rounded-full border border-[#183a2f]/35 bg-white px-5 py-2 text-sm transition hover:border-[#183a2f]"
               >
                 0707273699
               </a>
             </div>
           </div>
 
-          <div className="rounded-3xl border border-neutral-800 bg-neutral-900 p-6">
-            <p className="text-sm uppercase tracking-widest text-neutral-400">
-              Tillganglighet
-            </p>
-            <ul className="mt-4 space-y-3 text-sm text-neutral-200">
-              <li>- Distans och pa plats enligt overenskommelse</li>
-              <li>- Uppdrag for bade privatpersoner och foretag</li>
-              <li>- Snabb aterkoppling och tydlig offert</li>
-            </ul>
+          <div className="overflow-hidden rounded-3xl border border-[#183a2f]/20 bg-white shadow-sm">
+            <div className="relative h-72 w-full">
+              <Image
+                src="/cecilia-portrait-placeholder.svg"
+                alt="Portratt av Cecilia"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+            <div className="grid grid-cols-3">
+              <div className="h-2 bg-[#1e7a49]" />
+              <div className="h-2 bg-white" />
+              <div className="h-2 bg-[#c53434]" />
+            </div>
+            <div className="p-6">
+              <p className="text-sm uppercase tracking-widest text-neutral-500">
+                Tillganglighet
+              </p>
+              <ul className="mt-4 space-y-2 text-sm text-neutral-700">
+                <li>- Distans och pa plats enligt overenskommelse</li>
+                <li>- Uppdrag for bade privatpersoner och foretag</li>
+                <li>- Snabb aterkoppling och tydlig offert</li>
+              </ul>
+            </div>
           </div>
+        </section>
+
+        <section className="mt-12 grid gap-6 md:grid-cols-3">
+          <article className="rounded-2xl border border-[#183a2f]/20 bg-white p-5">
+            <p className="text-sm font-semibold text-[#183a2f]">1981-1994</p>
+            <p className="mt-2 text-sm text-neutral-700">
+              13 ar i Italien med spraklig och kulturell forankring i vardagen.
+            </p>
+          </article>
+          <article className="rounded-2xl border border-[#183a2f]/20 bg-white p-5">
+            <p className="text-sm font-semibold text-[#183a2f]">Semantix</p>
+            <p className="mt-2 text-sm text-neutral-700">
+              Tolkuppdrag mellan 2001 och 2016 i olika professionella sammanhang.
+            </p>
+          </article>
+          <article className="rounded-2xl border border-[#183a2f]/20 bg-white p-5">
+            <p className="text-sm font-semibold text-[#183a2f]">Sprakservice</p>
+            <p className="mt-2 text-sm text-neutral-700">
+              Aktiv tolk 2013-2015 med fokus pa trygg kommunikation.
+            </p>
+          </article>
         </section>
 
         <section id="tjanster" className="mt-24">
           <h2 className="text-3xl font-semibold">Tjanster</h2>
+          <p className="mt-3 max-w-2xl text-neutral-700">
+            Professionellt sprakstod med personlig och varm service - anpassat
+            efter varje uppdrag.
+          </p>
           <div className="mt-8 grid gap-5 md:grid-cols-3">
             {services.map((service) => (
               <article
                 key={service.title}
-                className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6"
+                className="rounded-2xl border border-[#183a2f]/20 bg-white p-6 shadow-sm"
               >
                 <h3 className="text-xl font-medium">{service.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-neutral-300">
+                <p className="mt-3 text-sm leading-7 text-neutral-700">
                   {service.description}
                 </p>
               </article>
@@ -105,38 +151,64 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mt-24 grid gap-10 md:grid-cols-2">
+        <section className="mt-24 grid items-center gap-10 md:grid-cols-2">
+          <div className="overflow-hidden rounded-3xl border border-[#183a2f]/20 bg-white shadow-sm">
+            <div className="relative h-72 w-full">
+              <Image
+                src="/florence-postcard.svg"
+                alt="Illustration inspirerad av Florens"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-5 text-sm text-neutral-600">
+              Florens - staden dar Cecilias resa med italienska tog fart.
+            </div>
+          </div>
           <div>
-            <h2 className="text-3xl font-semibold">Om tolken</h2>
-            <p className="mt-4 text-neutral-300">
-              Med en livsbakgrund i bade Sverige och Italien erbjuds spraklig
-              precision tillsammans med kulturell forstaelse. Det ger trygga
-              processer nar kommunikation maste bli ratt fran borjan.
+            <h2 className="text-3xl font-semibold">Om Cecilia</h2>
+            <p className="mt-4 leading-8 text-neutral-700">
+              Cecilia ar fodd 1962 och uppvuxen i Angelholm. Hon studerade
+              italienska redan pa gymnasiet i Sverige och flyttade till Italien
+              vid 18 ars alder for fortsatta studier i Florens pa Universita per
+              i Stranieri. Dar byggde hon upp en djup spraklig trygghet, traffade
+              sin framtida make och bodde i Italien i 13 ar.
+            </p>
+            <p className="mt-4 leading-8 text-neutral-700">
+              Efter vidare studier i italienska i slutet av 90-talet arbetade hon
+              professionellt som tolk for Semantix och Sprakservice under manga ar.
+              Idag erbjuder hon samma kvalitet med ett personligt bemotande.
             </p>
           </div>
-          <ol className="space-y-3 rounded-2xl border border-neutral-800 bg-neutral-900 p-6 text-sm text-neutral-200">
+        </section>
+
+        <section className="mt-16">
+          <ol className="space-y-3 rounded-2xl border border-[#183a2f]/20 bg-white p-6 text-sm text-neutral-700">
             {timeline.map((item) => (
               <li key={item}>- {item}</li>
             ))}
           </ol>
         </section>
 
-        <section id="kontakt" className="mt-24 rounded-3xl border border-neutral-700 bg-neutral-900 p-8">
+        <section
+          id="kontakt"
+          className="mt-24 rounded-3xl border border-[#183a2f]/20 bg-white p-8 shadow-sm"
+        >
           <h2 className="text-3xl font-semibold">Kontakt</h2>
-          <p className="mt-3 max-w-2xl text-sm leading-7 text-neutral-300">
+          <p className="mt-3 max-w-2xl text-sm leading-7 text-neutral-700">
             Beskriv vad du behover hjalp med sa aterkommer vi med forslag pa
             upplagg och pris.
           </p>
           <div className="mt-4 flex flex-wrap gap-3 text-sm">
             <a
               href="mailto:cecilia.skoldebrink@gmail.com"
-              className="rounded-full border border-neutral-700 px-4 py-2 transition hover:border-neutral-400"
+              className="rounded-full border border-[#183a2f]/30 px-4 py-2 transition hover:border-[#183a2f]"
             >
               cecilia.skoldebrink@gmail.com
             </a>
             <a
               href="tel:+46707273699"
-              className="rounded-full border border-neutral-700 px-4 py-2 transition hover:border-neutral-400"
+              className="rounded-full border border-[#183a2f]/30 px-4 py-2 transition hover:border-[#183a2f]"
             >
               0707273699
             </a>
@@ -149,35 +221,35 @@ export default function Home() {
             encType="text/plain"
           >
             <input
-              className="rounded-xl border border-neutral-700 bg-neutral-950 px-4 py-3 text-sm outline-none ring-neutral-500 placeholder:text-neutral-500 focus:ring"
+              className="rounded-xl border border-[#183a2f]/30 bg-[#fcfbf8] px-4 py-3 text-sm outline-none ring-[#183a2f] placeholder:text-neutral-500 focus:ring"
               name="Namn"
               type="text"
               placeholder="Ditt namn"
               required
             />
             <input
-              className="rounded-xl border border-neutral-700 bg-neutral-950 px-4 py-3 text-sm outline-none ring-neutral-500 placeholder:text-neutral-500 focus:ring"
+              className="rounded-xl border border-[#183a2f]/30 bg-[#fcfbf8] px-4 py-3 text-sm outline-none ring-[#183a2f] placeholder:text-neutral-500 focus:ring"
               name="E-post"
               type="email"
               placeholder="din@email.se"
               required
             />
             <input
-              className="rounded-xl border border-neutral-700 bg-neutral-950 px-4 py-3 text-sm outline-none ring-neutral-500 placeholder:text-neutral-500 focus:ring md:col-span-2"
+              className="rounded-xl border border-[#183a2f]/30 bg-[#fcfbf8] px-4 py-3 text-sm outline-none ring-[#183a2f] placeholder:text-neutral-500 focus:ring md:col-span-2"
               name="Arende"
               type="text"
               placeholder="Till exempel: oversattning av intyg"
               required
             />
             <textarea
-              className="min-h-36 rounded-xl border border-neutral-700 bg-neutral-950 px-4 py-3 text-sm outline-none ring-neutral-500 placeholder:text-neutral-500 focus:ring md:col-span-2"
+              className="min-h-36 rounded-xl border border-[#183a2f]/30 bg-[#fcfbf8] px-4 py-3 text-sm outline-none ring-[#183a2f] placeholder:text-neutral-500 focus:ring md:col-span-2"
               name="Meddelande"
               placeholder="Beratta kort om ditt arende"
               required
             />
             <button
               type="submit"
-              className="rounded-full bg-neutral-100 px-6 py-3 text-sm font-semibold text-neutral-950 transition hover:bg-neutral-300 md:col-span-2 md:w-fit"
+              className="rounded-full bg-[#183a2f] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#225140] md:col-span-2 md:w-fit"
             >
               Skicka forfragan
             </button>
