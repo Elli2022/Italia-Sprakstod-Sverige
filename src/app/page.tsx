@@ -2,11 +2,6 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Dokumentöversättning",
-    description:
-      "Översättning av intyg, myndighetsdokument, avtal och privata handlingar mellan svenska och italienska.",
-  },
-  {
     title: "Tolkning och medling",
     description:
       "Språkstöd i samtal mellan familjer, företag och myndigheter med fokus på tydlighet och förståelse.",
@@ -21,8 +16,8 @@ const services = [
 const timeline = [
   "Uppvuxen i Ängelholm och studerade italienska på gymnasiet i Sverige.",
   "Flyttade till Italien vid 18 års ålder och studerade i Florens på Università per Stranieri.",
-  "Bodde i Italien i 13 år (1981–1994) och byggde djup kulturell och språklig förankring.",
-  "Fortsatta italienskstudier i slutet av 90-talet.",
+  "Bodde i Italien i 13 år (1982–1994) och byggde djup kulturell och språklig förankring.",
+  "Läste italienska vid Lunds universitet från augusti 1997 till september 1998 (43 gamla poäng, motsvarande 64,5 hp idag).",
   "Yrkesverksam tolk för Semantix (2001–2016) och Språkservice (2013–2015).",
 ];
 
@@ -31,12 +26,12 @@ export default function Home() {
     <div className="bg-[#f8f4ee] text-neutral-900">
       <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col px-6 pb-20 pt-8 md:px-10">
         <header className="mb-14 flex flex-wrap items-center justify-between gap-4">
-          <div className="space-y-2">
-            <p className="text-sm font-semibold tracking-wide text-[#183a2f]">
-              Italia Språkstöd Sverige
+          <div className="space-y-3">
+            <p className="text-3xl font-semibold tracking-tight text-[#183a2f] md:text-4xl">
+              Italidea
             </p>
-            <p className="w-fit rounded-full border border-[#183a2f]/30 bg-white/70 px-4 py-2 text-xs uppercase tracking-[0.2em] text-[#8b1e1e]">
-              Svensk-italiensk tolkning och översättning
+            <p className="w-fit rounded-full border border-[#183a2f]/30 bg-white/80 px-4 py-2 text-sm font-medium tracking-wide text-[#8b1e1e]">
+              Svensk-italiensk tolkning och språkstöd
             </p>
           </div>
           <a
@@ -111,7 +106,7 @@ export default function Home() {
 
         <section className="mt-12 grid gap-6 md:grid-cols-3">
           <article className="rounded-2xl border border-[#183a2f]/20 bg-white p-5">
-            <p className="text-sm font-semibold text-[#183a2f]">1981-1994</p>
+            <p className="text-sm font-semibold text-[#183a2f]">1982-1994</p>
             <p className="mt-2 text-sm text-neutral-700">
               13 år i Italien med språklig och kulturell förankring i vardagen.
             </p>
@@ -172,13 +167,14 @@ export default function Home() {
               redan på gymnasiet i Sverige och flyttade till Italien vid 18 års
               ålder för fortsatta studier i Florens på Università per i Stranieri.
               Där byggde jag upp en djup språklig trygghet, träffade min make och
-              bodde i Italien i 13 år.
+              bodde i Italien i 13 år (1982-1994).
             </p>
             <p className="mt-4 leading-8 text-neutral-700">
-              Efter vidare studier i italienska i slutet av 90-talet arbetade jag
-              professionellt som tolk för Semantix och Språkservice under många år.
-              Idag erbjuder jag samma kvalitet med ett personligt och varmt
-              bemötande.
+              Jag läste även italienska vid Lunds universitet från augusti 1997
+              till september 1998, drygt två terminer (43 gamla poäng, motsvarande
+              64,5 hp idag). Efter detta arbetade jag professionellt som tolk för
+              Semantix och Språkservice under många år. Idag erbjuder jag samma
+              kvalitet med ett personligt och varmt bemötande.
             </p>
           </div>
         </section>
@@ -234,13 +230,13 @@ export default function Home() {
             action="https://formsubmit.co/cecilia.skoldebrink@gmail.com"
             method="POST"
           >
-            <input type="hidden" name="_subject" value="Ny förfrågan från Italia Språkstöd Sverige" />
+            <input type="hidden" name="_subject" value="Ny förfrågan från Italidea" />
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_template" value="table" />
             <input
               type="hidden"
               name="_next"
-              value="https://italia-sprakstod-sverige.netlify.app/tack"
+              value="https://italidea.netlify.app/tack"
             />
             <input
               className="rounded-xl border border-[#183a2f]/30 bg-[#fcfbf8] px-4 py-3 text-sm outline-none ring-[#183a2f] placeholder:text-neutral-500 focus:ring"
@@ -262,7 +258,7 @@ export default function Home() {
               className="rounded-xl border border-[#183a2f]/30 bg-[#fcfbf8] px-4 py-3 text-sm outline-none ring-[#183a2f] placeholder:text-neutral-500 focus:ring md:col-span-2"
               name="Ärende"
               type="text"
-              placeholder="Till exempel: översättning av intyg"
+              placeholder="Till exempel: tolkhjälp vid möte"
               required
             />
             <textarea

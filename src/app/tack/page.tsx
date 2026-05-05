@@ -11,7 +11,7 @@ export default function TackPage() {
           Ditt meddelande är skickat
         </h1>
         <p className="mt-4 text-lg leading-relaxed text-neutral-700">
-          Tack för att du kontaktade Italia Språkstöd Sverige. Jag återkommer så snart jag kan.
+          Tack för att du kontaktade Italidea. Jag återkommer så snart jag kan.
         </p>
         <p className="mt-2 leading-relaxed text-neutral-700">
           Vid brådskande ärende kan du ringa{" "}

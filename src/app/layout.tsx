@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Italia Språkstöd Sverige",
+  title: "Italidea | Svensk-italiensk tolkning och språkstöd",
   description:
-    "Professionellt språkstöd, översättning och vägledning mellan svenska och italienska.",
+    "Svensk-italiensk tolkning och språkstöd.",
 };
 
 export default function RootLayout({
