@@ -166,18 +166,19 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <h2 className="text-3xl font-semibold">Om Cecilia</h2>
+            <h2 className="text-3xl font-semibold">Om mig</h2>
             <p className="mt-4 leading-8 text-neutral-700">
-              Cecilia är född 1962 och uppvuxen i Ängelholm. Hon studerade
-              italienska redan på gymnasiet i Sverige och flyttade till Italien
-              vid 18 års ålder för fortsatta studier i Florens på Università per
-              i Stranieri. Där byggde hon upp en djup språklig trygghet, träffade
-              sin framtida make och bodde i Italien i 13 år.
+              Jag är född 1962 och uppvuxen i Ängelholm. Jag studerade italienska
+              redan på gymnasiet i Sverige och flyttade till Italien vid 18 års
+              ålder för fortsatta studier i Florens på Università per i Stranieri.
+              Där byggde jag upp en djup språklig trygghet, träffade min make och
+              bodde i Italien i 13 år.
             </p>
             <p className="mt-4 leading-8 text-neutral-700">
-              Efter vidare studier i italienska i slutet av 90-talet arbetade hon
+              Efter vidare studier i italienska i slutet av 90-talet arbetade jag
               professionellt som tolk för Semantix och Språkservice under många år.
-              Idag erbjuder hon samma kvalitet med ett personligt bemötande.
+              Idag erbjuder jag samma kvalitet med ett personligt och varmt
+              bemötande.
             </p>
           </div>
         </section>
@@ -208,16 +209,6 @@ export default function Home() {
           id="kontakt"
           className="mt-24 rounded-3xl border border-[#183a2f]/20 bg-white p-8 shadow-sm"
         >
-          <div className="mb-6 overflow-hidden rounded-2xl border border-[#183a2f]/15">
-            <div className="relative h-52 w-full">
-              <Image
-                src="/images/meeting.jpg"
-                alt="Samtal i kontorsmiljö"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
           <h2 className="text-3xl font-semibold">Kontakt</h2>
           <p className="mt-3 max-w-2xl text-sm leading-7 text-neutral-700">
             Beskriv vad du behöver hjälp med så återkommer vi med förslag på
