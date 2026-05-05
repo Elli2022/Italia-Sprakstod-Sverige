@@ -84,7 +84,7 @@ export default function Home() {
           <div className="overflow-hidden rounded-3xl border border-[#183a2f]/20 bg-white shadow-sm">
             <div className="relative h-72 w-full">
               <Image
-                src="/cecilia-portrait-placeholder.svg"
+                src="/images/cecilia-style-portrait.jpg"
                 alt="Porträtt av Cecilia"
                 fill
                 className="object-cover"
@@ -155,7 +155,7 @@ export default function Home() {
           <div className="overflow-hidden rounded-3xl border border-[#183a2f]/20 bg-white shadow-sm">
             <div className="relative h-72 w-full">
               <Image
-                src="/florence-postcard.svg"
+                src="/images/florence.jpg"
                 alt="Illustration inspirerad av Florens"
                 fill
                 className="object-cover"
@@ -190,10 +190,34 @@ export default function Home() {
           </ol>
         </section>
 
+        <section className="mt-10 rounded-2xl border border-[#183a2f]/20 bg-white p-6 text-xs text-neutral-600">
+          <p className="font-semibold text-neutral-700">Bildkällor (fria att använda)</p>
+          <p className="mt-2">
+            Foto: Pexels. Dessa bilder används enligt Pexels-licensen för fri användning.
+          </p>
+          <ul className="mt-2 space-y-1">
+            <li>
+              - Florens: https://www.pexels.com/photo/giotto-s-campanile-and-florence-cathedral-under-blue-sky-29152796/
+            </li>
+            <li>- Porträttstil: https://www.pexels.com/photo/smiling-woman-in-office-5934201/</li>
+            <li>- Mötesscenario: https://www.pexels.com/photo/two-women-talking-in-an-office-14797778/</li>
+          </ul>
+        </section>
+
         <section
           id="kontakt"
           className="mt-24 rounded-3xl border border-[#183a2f]/20 bg-white p-8 shadow-sm"
         >
+          <div className="mb-6 overflow-hidden rounded-2xl border border-[#183a2f]/15">
+            <div className="relative h-52 w-full">
+              <Image
+                src="/images/meeting.jpg"
+                alt="Samtal i kontorsmiljö"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
           <h2 className="text-3xl font-semibold">Kontakt</h2>
           <p className="mt-3 max-w-2xl text-sm leading-7 text-neutral-700">
             Beskriv vad du behöver hjälp med så återkommer vi med förslag på
