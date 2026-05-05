@@ -84,7 +84,7 @@ export default function Home() {
           <div className="overflow-hidden rounded-3xl border border-[#183a2f]/20 bg-white shadow-sm">
             <div className="relative h-72 w-full">
               <Image
-                src="/images/cecilia-style-portrait.jpg"
+                src="/images/Mamma.jpg"
                 alt="Porträtt av Cecilia"
                 fill
                 className="object-cover"
@@ -199,7 +199,7 @@ export default function Home() {
             <li>
               - Florens: https://www.pexels.com/photo/giotto-s-campanile-and-florence-cathedral-under-blue-sky-29152796/
             </li>
-            <li>- Porträttstil: https://www.pexels.com/photo/smiling-woman-in-office-5934201/</li>
+            <li>- Porträtt: Privat bild uppladdad av kunden (Cecilia)</li>
             <li>- Mötesscenario: https://www.pexels.com/photo/two-women-talking-in-an-office-14797778/</li>
           </ul>
         </section>
